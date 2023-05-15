@@ -10,8 +10,8 @@ export default function Home({ pizzaList, admin }) {
     return (
         <div>
             <Head>
-                <title>Pizza Restaurant in Newyork</title>
-                <meta name="description" content="Best pizza shop in town" />
+                <title>MoMo Coffee</title>
+                <meta name="description" content="Best Coffee ever" />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
 

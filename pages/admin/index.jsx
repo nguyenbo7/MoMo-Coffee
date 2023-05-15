@@ -64,7 +64,7 @@ const Index = ({ orders, products }) => {
 
                                 <td>{product._id.slice(0, 5)}...</td>
                                 <td>{product.title}</td>
-                                <td>${product.prices[0]}</td>
+                                <td>${product.price}</td>
 
                                 <td>
                                     <button className={styles.button}>Edit</button>
@@ -97,7 +97,7 @@ const Index = ({ orders, products }) => {
                 {orderList.map((order) => (
                     <tbody key={order._id}>
                         <tr className={styles.trTitle}>
-                            <td>{order._id.slice(0, 5)}...</td>
+                            <td>{order._id}</td>
                             <td>{order.customer}</td>
                             <td>${order.total}</td>
                             <td>

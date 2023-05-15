@@ -94,12 +94,11 @@ const Cart = () => {
                 <table className={styles.table}>
                     <tbody>
                         <tr className={styles.trTitle}>
-                        <th>Product</th>
-                        <th>Name</th>
-                        <th>Extras</th>
-                        <th>Price</th>
-                        <th>Quantity</th>
-                        <th>Total</th>
+                            <th>Product</th>
+                            <th>Name</th>
+                            <th>Price</th>
+                            <th>Quantity</th>
+                            <th>Total</th>
                         </tr>
                     </tbody>
 
@@ -119,13 +118,6 @@ const Cart = () => {
 
                                 <td>
                                     <span className={styles.name}>{product.title}</span>
-                                </td>
-                                <td>
-                                    <span className={styles.extras}>
-                                        {product.extras.map((extra) => (
-                                            <span key={extra._id}>{extra.text}, </span>
-                                        ))}
-                                    </span>
                                 </td>
 
                                 <td>

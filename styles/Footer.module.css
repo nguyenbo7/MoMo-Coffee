@@ -1,6 +1,6 @@
 .container {
-  height: calc(100vh - 100px);
-  background-color: #222;
+  height: 400px;
+  background-color: black;
   display: flex;
 }
 
@@ -23,24 +23,17 @@
 
 .title {
   font-size: 18px;
-  color: #b7903c;
+  color: orangered;
 }
 
 .text {
   color: lightgray;
 }
 
-.motto {
-  color: rgb(211, 211, 211);
-}
-
 @media screen and (max-width: 480px) {
   .container {
     height: auto;
     text-align: center;
-  }
-  .item:first-child {
-    display: none;
   }
 
   .item {
